@@ -1,0 +1,35 @@
+🧰 One-time setup:
+	1.	Install Python 3 (if not already installed)
+They can check by running:
+
+python3 --version
+
+
+	2.	Install Git (usually already installed on macOS)
+	3.	Clone your repo
+
+git clone https://github.com/MissyAI87/sims4-mod-fixer.git
+cd sims4-mod-fixer
+
+
+	4.	Create and activate a virtual environment
+
+python3 -m venv env
+source env/bin/activate
+
+
+	5.	Install dependencies
+
+pip install -r requirements.txt
+
+🚀 To run the script:
+
+After setup, run:
+
+python sims4_mod_fixer.py --apply
+
+And it would:
+	•	Back up Mods
+	•	Detect and clean garbage/tiny/duplicate/corrupt files
+	•	Export a mod inventory
+	•	(Optionally) download known updates
